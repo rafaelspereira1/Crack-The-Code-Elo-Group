@@ -1,4 +1,4 @@
-import { v4 } from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 export function createLead(lead) {
   const rawLeads = localStorage.getItem("leads");
@@ -8,7 +8,7 @@ export function createLead(lead) {
   const newLeads = [
     ...leads,
     {
-      id: v4(),
+      id: uuidv4(),
       index: leads.length,
       ...lead,
     },
