@@ -1,0 +1,15 @@
+.board-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-title {
+  background-color: gray;
+  border: 1px solid black;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 2rem;
+  user-select: none;
+  color: white;
+  font-weight: bold;
+}

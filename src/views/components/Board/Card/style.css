@@ -1,0 +1,17 @@
+.card,
+.dragging {
+  padding: 2rem;
+  border: 1px solid black;
+
+  background: #d3d3d3;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 13rem;
+  cursor: pointer;
+}
+
+.dragging {
+  border: 1px dashed black;
+  background: white;
+  border-radius: 3px;
+}

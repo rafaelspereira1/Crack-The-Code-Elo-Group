@@ -1,0 +1,31 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 3px auto;
+  display: inline-table;
+  vertical-align: middle;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 2px;
+  width: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+th {
+  background: gray;
+}
+
+.input-checkbox {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

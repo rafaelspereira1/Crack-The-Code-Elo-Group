@@ -1,0 +1,47 @@
+.container-leads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 70rem;
+  justify-content: center;
+  margin: 5rem auto;
+  padding-bottom: 3rem;
+  background: var(--primary-background);
+}
+
+.header-leads {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  align-items: center;
+  flex-direction: center;
+  background: #14222a;
+  font-family: "Open Sans", "Helvetica Neue";
+  letter-spacing: 0.4rem;
+  color: white;
+  text-align: center;
+  width: 20rem;
+  height: 3rem;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.content-leads {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-lead {
+  display: flex;
+  justify-content: flex-start;
+  width: min-content;
+}
